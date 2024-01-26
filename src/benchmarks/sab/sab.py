@@ -4,6 +4,7 @@ import sys
 
 sys.path.insert(0, '../../')  # including the path to deep-tasks folder
 sys.path.insert(0, '../../my_models')  # including the path to my_models folder
+sys.path.insert(0, './src')
 from constants import RAUG_PATH
 
 sys.path.insert(0, RAUG_PATH)
